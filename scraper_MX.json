@@ -1,0 +1,185 @@
+{
+    "pages":[
+        {
+            "name_page": "Liga_BBVA",
+            "url": "https://www.ligamx.net/cancha/estadisticahistorica",
+            "actions": [
+                {
+                    "type_action": "seleccionar",
+                    "element": {
+                        "by": "ID",
+                        "value": "temporadasSelect",
+                        "text-select": "2020-2021"
+                    }
+                },
+                {
+                    "type_action": "seleccionar",
+                    "element": {
+                        "by": "ID",
+                        "value": "torneosSelect",
+                        "text-select": "Apertura"
+                    }
+                },
+                {
+                    "type_action": "click",
+                    "element": {
+                        "by": "ID",
+                        "value": "btnBuscar"
+                    }
+                },
+                {
+                    "type_action": "extraer_tabla",
+                    "element": {
+                        "by": "CSS_SELECTOR",
+                        "value": "table.default.tbl_grals",
+                        "header": {
+                            "by": "CSS_SELECTOR",
+                            "value": "tr.head"
+                        },
+                        "name_arch": "Apertura 2020-2021"
+                    }
+                },
+                {
+                    "type_action": "seleccionar",
+                    "element": {
+                        "by": "ID",
+                        "value": "temporadasSelect",
+                        "text-select": "2017-2018"
+                    }
+                },
+                {
+                    "type_action": "seleccionar",
+                    "element": {
+                        "by": "ID",
+                        "value": "torneosSelect",
+                        "text-select": "Clausura"
+                    }
+                },
+                {
+                    "type_action": "click",
+                    "element": {
+                        "by": "ID",
+                        "value": "btnBuscar"
+                    }
+                },
+                {
+                    "type_action": "extraer_tabla",
+                    "element": {
+                        "by": "CSS_SELECTOR",
+                        "value": "table.default.tbl_grals",
+                        "header": {
+                            "by": "CSS_SELECTOR",
+                            "value": "tr.head"
+                        },
+                        "name_arch": "Clausura 2017-2018"
+                    }
+                },
+                {
+                    "type_action": "seleccionar",
+                    "element": {
+                        "by": "ID",
+                        "value": "temporadasSelect",
+                        "text-select": "2023-2024"
+                    }
+                },
+                {
+                    "type_action": "seleccionar",
+                    "element": {
+                        "by": "ID",
+                        "value": "torneosSelect",
+                        "text-select": "Apertura"
+                    }
+                },
+                {
+                    "type_action": "click",
+                    "element": {
+                        "by": "ID",
+                        "value": "btnBuscar"
+                    }
+                },
+                {
+                    "type_action": "extraer_tabla",
+                    "element": {
+                        "by": "CSS_SELECTOR",
+                        "value": "table.default.tbl_grals",
+                        "header": {
+                            "by": "CSS_SELECTOR",
+                            "value": "tr.head"
+                        },
+                        "name_arch": "Apertura 2023-2024"
+                    }
+                },
+                {
+                    "type_action": "seleccionar",
+                    "element": {
+                        "by": "ID",
+                        "value": "temporadasSelect",
+                        "text-select": "2006-2007"
+                    }
+                },
+                {
+                    "type_action": "seleccionar",
+                    "element": {
+                        "by": "ID",
+                        "value": "torneosSelect",
+                        "text-select": "Clausura"
+                    }
+                },
+                {
+                    "type_action": "click",
+                    "element": {
+                        "by": "ID",
+                        "value": "btnBuscar"
+                    }
+                },
+                {
+                    "type_action": "extraer_tabla",
+                    "element": {
+                        "by": "CSS_SELECTOR",
+                        "value": "table.default.tbl_grals",
+                        "header": {
+                            "by": "CSS_SELECTOR",
+                            "value": "tr.head"
+                        },
+                        "name_arch": "Clausura 2006-2007"
+                    }
+                },
+                {
+                    "type_action": "seleccionar",
+                    "element": {
+                        "by": "ID",
+                        "value": "temporadasSelect",
+                        "text-select": "2015-2016"
+                    }
+                },
+                {
+                    "type_action": "seleccionar",
+                    "element": {
+                        "by": "ID",
+                        "value": "torneosSelect",
+                        "text-select": "Clausura"
+                    }
+                },
+                {
+                    "type_action": "click",
+                    "element": {
+                        "by": "ID",
+                        "value": "btnBuscar"
+                    }
+                },
+                {
+                    "type_action": "extraer_tabla",
+                    "element": {
+                        "by": "CSS_SELECTOR",
+                        "value": "table.default.tbl_grals",
+                        "header": {
+                            "by": "CSS_SELECTOR",
+                            "value": "tr.head"
+                        },
+                        "name_arch": "Clausura 2015-2016"
+                    }
+                }
+            ]
+        }
+    ]
+}

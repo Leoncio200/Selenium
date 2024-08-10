@@ -1,4 +1,7 @@
+from scrapper import Scrapper
 
-def 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
+    scraper = Scrapper('scrapper_final.json')
+    scraper.setup_driver()
+    scraper.ejecutar()
+    scraper.close()

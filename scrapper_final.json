@@ -1,0 +1,278 @@
+{
+    "pages":[
+        {
+            "name_page": "Amazon",
+            "url": "https://www.amazon.com/computers",
+            "actions":[
+                {
+                    "type_action": "buscar",
+                    "element": {
+                        "by": "ID",
+                        "value": "twotabsearchtextbox",
+                        "search-term": "Iphone 15"
+                    }
+                },
+                {
+                    "type_action": "click",
+                    "element": {
+                        "by": "ID",
+                        "value": "nav-search-submit-button"
+                    }
+                },
+                {
+                    "type_action": "extraer_info",
+                    "element": {
+                        "tittle": {
+                            "by": "CSS_SELECTOR",
+                            "value": "span.a-size-medium.a-color-base.a-text-normal"
+                        },
+                        "price": {
+                            "by": "CSS_SELECTOR",
+                            "value": "span.a-price"
+                        } 
+                    }
+                }
+            ]
+        },
+        {
+            "name_page": "MercadoLibre",
+            "url": "https://www.mercadolibre.com.mx",
+            "actions": [
+                {
+                    "type_action": "buscar",
+                    "element": {
+                        "by": "CSS_SELECTOR",
+                        "value": "input.nav-search-input",
+                        "search-term": "Iphone 15"
+                    }
+                },
+                {
+                    "type_action": "click",
+                    "element": {
+                        "by": "CSS_SELECTOR",
+                        "value": "button.nav-search-btn"
+                    }
+                },
+                {
+                    "type_action": "extraer_info",
+                    "element": {
+                        "tittle": {
+                            "by": "CSS_SELECTOR",
+                            "value": "h2.ui-search-item__title"
+                        },
+                        "price": {
+                            "by": "CSS_SELECTOR",
+                            "value": "span.andes-money-amount.ui-search-price__part.ui-search-price__part--medium.andes-money-amount--cents-superscript"
+                        } 
+                    }
+                }
+            ]
+        },
+        {
+            "name_page": "Tipos Pokemon",
+            "url": "https://www.mundodeportivo.com/alfabeta/guia/tabla-tipos-pokemon-fortalezas-debilidades",
+            "actions": [
+                {
+                    "type_action": "click",
+                    "element": {
+                        "by": "ID",
+                        "value": "didomi-notice-agree-button"
+                    }
+                },
+                {
+                    "type_action": "extraer_tabla",
+                    "element": {
+                        "by": "CSS_SELECTOR",
+                        "value": "table.r-tab",
+                        "header": {
+                            "by": "CSS_SELECTOR",
+                            "value": "thead.t-head"
+                        },
+                        "name_arch": "Tabla de tipos de Pokémon"
+                    }
+                }
+            ]
+        },
+        {
+            "name_page": "Liga_BBVA",
+            "url": "https://www.ligamx.net/cancha/estadisticahistorica",
+            "actions": [
+                {
+                    "type_action": "seleccionar",
+                    "element": {
+                        "by": "ID",
+                        "value": "temporadasSelect",
+                        "text-select": "2020-2021"
+                    }
+                },
+                {
+                    "type_action": "seleccionar",
+                    "element": {
+                        "by": "ID",
+                        "value": "torneosSelect",
+                        "text-select": "Apertura"
+                    }
+                },
+                {
+                    "type_action": "click",
+                    "element": {
+                        "by": "ID",
+                        "value": "btnBuscar"
+                    }
+                },
+                {
+                    "type_action": "extraer_tabla",
+                    "element": {
+                        "by": "CSS_SELECTOR",
+                        "value": "table.default.tbl_grals",
+                        "header": {
+                            "by": "CSS_SELECTOR",
+                            "value": "tr.head"
+                        },
+                        "name_arch": "Apertura 2020-2021"
+                    }
+                },
+                {
+                    "type_action": "seleccionar",
+                    "element": {
+                        "by": "ID",
+                        "value": "temporadasSelect",
+                        "text-select": "2017-2018"
+                    }
+                },
+                {
+                    "type_action": "seleccionar",
+                    "element": {
+                        "by": "ID",
+                        "value": "torneosSelect",
+                        "text-select": "Clausura"
+                    }
+                },
+                {
+                    "type_action": "click",
+                    "element": {
+                        "by": "ID",
+                        "value": "btnBuscar"
+                    }
+                },
+                {
+                    "type_action": "extraer_tabla",
+                    "element": {
+                        "by": "CSS_SELECTOR",
+                        "value": "table.default.tbl_grals",
+                        "header": {
+                            "by": "CSS_SELECTOR",
+                            "value": "tr.head"
+                        },
+                        "name_arch": "Clausura 2017-2018"
+                    }
+                },
+                {
+                    "type_action": "seleccionar",
+                    "element": {
+                        "by": "ID",
+                        "value": "temporadasSelect",
+                        "text-select": "2023-2024"
+                    }
+                },
+                {
+                    "type_action": "seleccionar",
+                    "element": {
+                        "by": "ID",
+                        "value": "torneosSelect",
+                        "text-select": "Apertura"
+                    }
+                },
+                {
+                    "type_action": "click",
+                    "element": {
+                        "by": "ID",
+                        "value": "btnBuscar"
+                    }
+                },
+                {
+                    "type_action": "extraer_tabla",
+                    "element": {
+                        "by": "CSS_SELECTOR",
+                        "value": "table.default.tbl_grals",
+                        "header": {
+                            "by": "CSS_SELECTOR",
+                            "value": "tr.head"
+                        },
+                        "name_arch": "Apertura 2023-2024"
+                    }
+                },
+                {
+                    "type_action": "seleccionar",
+                    "element": {
+                        "by": "ID",
+                        "value": "temporadasSelect",
+                        "text-select": "2006-2007"
+                    }
+                },
+                {
+                    "type_action": "seleccionar",
+                    "element": {
+                        "by": "ID",
+                        "value": "torneosSelect",
+                        "text-select": "Clausura"
+                    }
+                },
+                {
+                    "type_action": "click",
+                    "element": {
+                        "by": "ID",
+                        "value": "btnBuscar"
+                    }
+                },
+                {
+                    "type_action": "extraer_tabla",
+                    "element": {
+                        "by": "CSS_SELECTOR",
+                        "value": "table.default.tbl_grals",
+                        "header": {
+                            "by": "CSS_SELECTOR",
+                            "value": "tr.head"
+                        },
+                        "name_arch": "Clausura 2006-2007"
+                    }
+                },
+                {
+                    "type_action": "seleccionar",
+                    "element": {
+                        "by": "ID",
+                        "value": "temporadasSelect",
+                        "text-select": "2015-2016"
+                    }
+                },
+                {
+                    "type_action": "seleccionar",
+                    "element": {
+                        "by": "ID",
+                        "value": "torneosSelect",
+                        "text-select": "Clausura"
+                    }
+                },
+                {
+                    "type_action": "click",
+                    "element": {
+                        "by": "ID",
+                        "value": "btnBuscar"
+                    }
+                },
+                {
+                    "type_action": "extraer_tabla",
+                    "element": {
+                        "by": "CSS_SELECTOR",
+                        "value": "table.default.tbl_grals",
+                        "header": {
+                            "by": "CSS_SELECTOR",
+                            "value": "tr.head"
+                        },
+                        "name_arch": "Clausura 2015-2016"
+                    }
+                }
+            ]
+        }
+    ]
+}
